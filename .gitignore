@@ -4,5 +4,6 @@
 *.log
 *.env
 data/pdfs/
+TurkeyDash.xlsx
 
 
