@@ -1,0 +1,14 @@
+Municipal waste services and management indicators, 1994-2022	2001	2002	2003	2004	2006	2008	2010	2012	2014	2016	2018	2020	2022
+Turkey population	67 803 927	67 803 927	67 803 927	67 803 927	70 586 256	70 586 256	73 722 988	75 627 384	77 695 904	79 814 871	82 003 882	83 614 362	85 279 553
+Total number of municipalities	 3 227	 3 227	 3 227	 3 225	 3 225	 3 225	 2 950	 2 950	 1 396	 1 397	 1 399	 1 389	 1 391
+Total municipal population	53 407 613	53 421 379	53 430 733	53 935 050	58 581 515	58 581 515	61 571 332	63 743 047	72 505 107	74 911 343	76 888 607	78 920 614	80 785 141
+Number of municipalities provided waste services	 2 921	 2 984	 3 018	 3 028	 3 115	 3 129	 2 879	 2 894	 1 391	 1 390	 1 395	 1 387	1389
+Population of municipalities served by waste services	50 875 794	51 763 134	51 862 924	52 329 045	57 451 562	57 800 347	60 946 131	63 105 474	70 843 913	73 854 880	75 952 539	78 204 213	80 319 403
+Rate of municipal population served by waste services in total municipal population (%)	95.3	96.9	97.1	97.0	98.1	98.7	99.0	99.0	97.7	98.6	98.8	99.1	99.4
+Amount of municipal waste generated (Thousand tonnes/year)	 31 031	 30 999	 31 081	 29 736	 30 082	 28 454	 29 733	 30 786	 31 230	 33 763	 34 533	 34 758	 32 422
+Amount of municipal waste collected (Thousand tonnes/year)	 25 134	 25 373	 26 118	 25 014	 25 280	 24 361	 25 277	 25 845	 28 011	 31 584	 32 209	 32 324	 30 284
+Average amount of municipal waste per capita (Kg/capita-day)	1.35	1.34	1.38	1.31	1.21	1.15	1.14	1.12	1.08	1.17	1.16	1.13	1.03
+Municipal waste management (Thousand tonnes/year) 													
+Waste treatment facilities	 8 522	 7 430	 7 758	 7 353	 9 683	 11 223	 13 941	 15 639	 17 933	 22 430	 25 615	 26 707	 26 017
+Municipality's dumping sites	 14 570	 16 310	 16 567	 16 416	 14 941	 12 678	 11 001	 9 772	 9 935	 9 095	 6 521	 5 493	 4 093
+Other disposal methods(3)	 2 042	 1 634	 1 793	 1 246	  656	  460	  334	  437	  141	  58	  74	  124	  174

@@ -1,0 +1,26 @@
+[theme]
+base = "light"
+primaryColor="#d33682"
+
+#background color 
+#backgroundColor = ""
+
+# secondary bgcolor for the sidebar and most interactive widgets
+#secondaryBackgroundColor = "#586e75"
+
+#text color
+#textColor ="#fff"
+
+[server]
+headless = true
+runOnSave = true
+
+[layout]
+wide = true
+
+[client]
+toolbarMode = "minimal"
+
+[ui]
+# 👉 This sets the page navigation to horizontal tabs
+pageNavigationMode = "horizontal"

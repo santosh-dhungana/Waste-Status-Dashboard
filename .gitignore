@@ -1,0 +1,8 @@
+**/__pychache__/
+**/.ipynb_checkpoints/
+**/backup_files/
+*.log
+*.env
+data/pdfs/
+
+

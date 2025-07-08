@@ -1,0 +1,13 @@
+# config.toml
+
+[app]
+title = "🌍 Waste Services Dashboard"
+subtitle = "Explore Waste Data Across Countries and Provinces"
+header = "National and Subnational Waste Management Insights"
+
+[theme]
+primaryColor = "#4B8BBE"
+backgroundColor = "#F0F2F6"
+secondaryBackgroundColor = "#E0E0E0"
+textColor = "#262730"
+font = "sans serif"
