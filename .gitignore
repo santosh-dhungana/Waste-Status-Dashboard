@@ -4,5 +4,7 @@
 *.env
 TurkeyDash.xlsx
 dataprocessing.ipynb
+__pycache__/
+*.pyc
 
 
