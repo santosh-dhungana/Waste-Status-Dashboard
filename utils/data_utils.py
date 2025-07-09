@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import altair as alt
 
+@st.cache_data
 def load_waste_data(path):
     df = pd.read_csv(path, sep='\t', header=0)
     for col in df.columns:
@@ -9,9 +10,6 @@ def load_waste_data(path):
             df[col] = df[col].apply(lambda x: x.replace(' ',''))
             df[col]=pd.to_numeric(df[col])
     return df
-
-
-
 
 
 #former data
@@ -50,7 +48,8 @@ def plot_province_stats(gdf_row):
         👤 {per_capita:.2f} kg/person/day
     </div>
     """, unsafe_allow_html=True)
-
+    
+@st.cache_data
 def aggregate_country_stats(df):
     #print('lendf:', len(df['Population']), df.columns)
     return {
