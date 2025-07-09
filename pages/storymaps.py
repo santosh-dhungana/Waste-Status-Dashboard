@@ -31,10 +31,17 @@ selected_location = st.sidebar.selectbox("Select a location", location_names)
 pdf_path = f"data/pdfs/{selected_location}.pdf"
 
 if os.path.exists(pdf_path):
-    with open(pdf_path, "rb") as f:
-        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="500" type="application/pdf"></iframe>'
-    st.sidebar.markdown(pdf_display, unsafe_allow_html=True)
+    # with open(pdf_path, "rb") as f:
+    #     base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+    # pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="500" type="application/pdf"></iframe>'
+    # st.sidebar.markdown(pdf_display, unsafe_allow_html=True)
+
+    with st.sidebar:
+        #st.markdown("### 📄 Report Available")
+        st.markdown(
+            f'<a href="{pdf_path}" target="_blank">📑 <b>Open PDF Report for {selected_location}</b></a>',
+            unsafe_allow_html=True
+        )
 else:
     st.sidebar.warning("PDF not found for this location.")
 
