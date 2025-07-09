@@ -13,3 +13,4 @@ requests==2.32.4
 streamlit==1.46.1
 streamlit-option-menu==0.4.0
 streamlit_folium==0.25.0
+leafmap==0.48.6
