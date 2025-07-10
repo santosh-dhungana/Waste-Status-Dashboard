@@ -353,7 +353,7 @@ with tab1:
             legend= dict(font=dict(size=10)),
             )
 
-        st.plotly_chart(fig_pie, use_container_width=False)
+        st.plotly_chart(fig_pie, use_container_width=True)
 
     with col2:
         # --- Chart 1: Population and Municipalities ---
