@@ -328,7 +328,8 @@ with tab1:
         m = folium.Map(location=[39.0, 35.0], zoom_start=6)
         folium.Marker(location=[39.0, 35.0], popup=country).add_to(m)
         st_data = st_folium(m, width=700, height=350)
-
+        
+    with col1:
         # --- Chart 2b: Pie Chart for Disposal Facilities (Selected Year) ---
         st.subheader(f"🏭 Waste Disposal Infrastructure ({selected_year})")
 
@@ -339,7 +340,7 @@ with tab1:
         ]
 
         pie_values = [year_data.get(label, 0) for label in pie_labels]
-
+    
         fig_pie = px.pie(
             names=pie_labels,
             values=pie_values,
